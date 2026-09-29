@@ -1,4 +1,6 @@
 {
   "name": "Week 3 Docker Project",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu"
+  "dockerComposeFile": "../compose.yml",
+  "service": "web",
+  "workspaceFolder": "/workspace"
 }

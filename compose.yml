@@ -6,3 +6,4 @@ services:
       - "8081:80"
     volumes:
       - ./web:/usr/share/nginx/html
+      - .:/workspace
